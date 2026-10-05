@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>EnglishLearning.Ai.Contracts</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>EnglishLearning Team</Authors>
+    <Description>Shared contracts and DTOs for AI Service</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EnglishLearning.BuildingBlocks.Messaging" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StackExchange.Redis" Version="2.8.31" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ai.Domain\Ai.Domain.csproj" />
+    <ProjectReference Include="..\Ai.Contracts\Ai.Contracts.csproj" />
+    <ProjectReference Include="..\Ai.Application\Ai.Application.csproj" />
+    <PackageReference Include="EnglishLearning.BuildingBlocks.Grpc" Version="1.0.0" />
+    <PackageReference Include="EnglishLearning.BuildingBlocks.Observability" Version="1.0.0" />
+    <PackageReference Include="EnglishLearning.BuildingBlocks.Security" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

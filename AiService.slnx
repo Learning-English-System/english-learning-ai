@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Ai.Api/Ai.Api.csproj" />
+    <Project Path="src/Ai.Application/Ai.Application.csproj" />
+    <Project Path="src/Ai.Contracts/Ai.Contracts.csproj" />
+    <Project Path="src/Ai.Domain/Ai.Domain.csproj" />
+    <Project Path="src/Ai.Infrastructure/Ai.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Ai.IntegrationTests/Ai.IntegrationTests.csproj" />
+    <Project Path="tests/Ai.UnitTests/Ai.UnitTests.csproj" />
+  </Folder>
+</Solution>

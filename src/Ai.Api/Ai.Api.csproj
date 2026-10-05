@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.12" />
+    <PackageReference Include="Grpc.AspNetCore" Version="2.84.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ai.Application\Ai.Application.csproj" />
+    <ProjectReference Include="..\Ai.Infrastructure\Ai.Infrastructure.csproj" />
+    <PackageReference Include="EnglishLearning.BuildingBlocks.Web" Version="1.0.0" />
+    <PackageReference Include="EnglishLearning.BuildingBlocks.Security" Version="1.0.0" />
+    <PackageReference Include="EnglishLearning.BuildingBlocks.Observability" Version="1.0.0" />
+    <PackageReference Include="EnglishLearning.BuildingBlocks.Grpc" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

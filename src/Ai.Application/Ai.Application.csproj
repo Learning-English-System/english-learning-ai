@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ai.Domain\Ai.Domain.csproj" />
+    <ProjectReference Include="..\Ai.Contracts\Ai.Contracts.csproj" />
+    <PackageReference Include="EnglishLearning.BuildingBlocks.Web" Version="1.0.0" />
+    <PackageReference Include="EnglishLearning.BuildingBlocks.Security" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
